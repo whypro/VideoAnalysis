@@ -1,3 +1,4 @@
+
 #include "video_analysis.h"
 #include <QtGui/QApplication>
 
@@ -8,3 +9,4 @@ int main(int argc, char *argv[])
 	w.show();
 	return a.exec();
 }
+
