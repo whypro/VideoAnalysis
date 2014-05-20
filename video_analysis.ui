@@ -14,7 +14,23 @@
    <string>VideoAnalysis</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QDial" name="output_dial">
+      <property name="maximum">
+       <number>4</number>
+      </property>
+      <property name="pageStep">
+       <number>1</number>
+      </property>
+      <property name="notchTarget">
+       <double>3.700000000000000</double>
+      </property>
+      <property name="notchesVisible">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
     <item>
      <widget class="QLabel" name="screen">
       <property name="sizePolicy">
@@ -75,7 +91,7 @@
     <bool>false</bool>
    </attribute>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QStatusBar" name="status_bar"/>
   <action name="open_video_action">
    <property name="text">
     <string>打开(&amp;O)...</string>
